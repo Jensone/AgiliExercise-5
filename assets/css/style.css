@@ -122,3 +122,37 @@ hr {
 .from-last-month, .ligth-text {
     margin: 0;
 }
+
+/*Media Queries*/
+@media screen and (max-width: 768px) {
+    .card {
+        width: 300px;
+    }
+    .percent {
+        background-color: #EC755D;
+        height: 150px;
+        width: 1.95em;
+        border-radius: 0.35em;
+    }
+    header svg {
+        width: 70px;
+    }    
+    .balance-value {
+        font-size: 2em;
+    }
+    section {
+        padding: 1.5em;
+    }
+    section h2 {
+        font-size: 1em;
+    }
+    .day {
+        font-size: 0.65em;
+    }
+    .expanse-value {
+        font-size: 2em;
+    }
+    .from-last-month, .ligth-text {
+        font-size: 0.65em;
+    }
+}
