@@ -29,4 +29,96 @@ h1, h2, h3, h4, h5, h6, p, a, li, span, input, button, textarea {
 }
 
 /* Global Style */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
 
+.card {
+    width: 500px;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: #FFF;
+    border-radius: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+section {
+    background-color: var(--bg-color-light);
+    border-radius: 1em;
+    padding: 2em;
+}
+
+section h2 {
+    font-weight: 500;
+}
+
+.balance p {
+    margin: 3px;
+}
+
+.balance p:first-child {
+    font-size: 0.8em;
+}
+
+.balance-value {
+    font-size: 2em;
+}
+
+.days {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.percent {
+    background-color: #EC755D;
+    height: 150px;
+    width: 3.5em;
+    border-radius: 0.35em;
+}
+
+.day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.75em;
+}
+
+hr {
+    opacity: 0.35;;
+}
+
+.ligth-text, .day {
+    color: #808080;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: 2em;
+}
+
+.expanse-value {
+    font-size: 2.75em;
+    margin: 0;
+    font-weight: 500;
+}
+
+.compare  {
+    text-align: right;
+}
+
+.from-last-month, .ligth-text {
+    margin: 0;
+}
